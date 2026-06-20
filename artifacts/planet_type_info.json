@@ -1,0 +1,65 @@
+[
+    {
+        "planet_type":"Sub-Earth",
+        "planet_radius_earth":0.84,
+        "planet_mass_earth":0.615,
+        "equilibrium_temp_k":994.5,
+        "orbital_period_days":3.9163394195,
+        "semi_major_axis_au":0.04604,
+        "tipik_yorum":"Küçük, düşük kütleli, yıldızına çok yakın, kısa yörüngeli."
+    },
+    {
+        "planet_type":"Super-Earth",
+        "planet_radius_earth":1.4,
+        "planet_mass_earth":2.6,
+        "equilibrium_temp_k":923.0,
+        "orbital_period_days":5.341853,
+        "semi_major_axis_au":0.05689,
+        "tipik_yorum":"Dünya'dan büyük, yine kısa yörüngeli ve sıcak."
+    },
+    {
+        "planet_type":"Mini-Neptune",
+        "planet_radius_earth":2.46,
+        "planet_mass_earth":6.855,
+        "equilibrium_temp_k":678.0,
+        "orbital_period_days":13.767102,
+        "semi_major_axis_au":0.11,
+        "tipik_yorum":"Super-Earth'ten büyük, daha uzun yörüngeli ve daha düşük median sıcaklıklı."
+    },
+    {
+        "planet_type":"Neptune-like",
+        "planet_radius_earth":4.19,
+        "planet_mass_earth":16.35,
+        "equilibrium_temp_k":707.5,
+        "orbital_period_days":19.497157,
+        "semi_major_axis_au":0.1591,
+        "tipik_yorum":"Daha büyük ve ağır, Neptün benzeri profil."
+    },
+    {
+        "planet_type":"Gas Giant",
+        "planet_radius_earth":12.6,
+        "planet_mass_earth":458.62753826,
+        "equilibrium_temp_k":1055.0,
+        "orbital_period_days":127.7069049,
+        "semi_major_axis_au":0.843,
+        "tipik_yorum":"Çok büyük yarıçaplı, çok yüksek kütleli, daha uzun yörüngeli."
+    },
+    {
+        "planet_type":"Super-Jupiter",
+        "planet_radius_earth":15.984017,
+        "planet_mass_earth":325.291555,
+        "equilibrium_temp_k":1700.0,
+        "orbital_period_days":3.446459,
+        "semi_major_axis_au":0.04935,
+        "tipik_yorum":"Dev sınıf; tabloda çok sıcak ve kısa yörüngeli görünüyor."
+    },
+    {
+        "planet_type":"Unknown",
+        "planet_radius_earth":null,
+        "planet_mass_earth":1708.64551603,
+        "equilibrium_temp_k":639.8,
+        "orbital_period_days":16.8124,
+        "semi_major_axis_au":0.143135,
+        "tipik_yorum":"Bazı fiziksel değerleri eksik olabilir; model\/evaluation tarafında dikkatli yorumlanmalı."
+    }
+]

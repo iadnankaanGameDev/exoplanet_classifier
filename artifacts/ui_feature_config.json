@@ -1,0 +1,287 @@
+{
+    "n_stars": {
+        "label": "Stars in system",
+        "unit": "",
+        "description": "Number of stars in the planetary system.",
+        "visual_type": "stars",
+        "step": 1,
+        "min": 1,
+        "max": 4,
+        "default": 1,
+        "scale": "linear",
+        "class_markers": {
+            "Gas Giant": 1.0,
+            "Mini-Neptune": 1.0,
+            "Neptune-like": 1.0,
+            "Sub-Earth": 1.0,
+            "Super-Earth": 1.0,
+            "Super-Jupiter": 1.0
+        }
+    },
+    "n_planets": {
+        "label": "Planets in system",
+        "unit": "",
+        "description": "Number of confirmed planets orbiting the host star system.",
+        "visual_type": "planet_count",
+        "step": 1,
+        "min": 1,
+        "max": 8,
+        "default": 1,
+        "scale": "linear",
+        "class_markers": {
+            "Gas Giant": 1.0,
+            "Mini-Neptune": 2.0,
+            "Neptune-like": 1.0,
+            "Sub-Earth": 2.0,
+            "Super-Earth": 2.0,
+            "Super-Jupiter": 1.0
+        }
+    },
+    "orbital_period_days": {
+        "label": "Orbital period",
+        "unit": "days",
+        "description": "Time required for the planet to complete one orbit.",
+        "visual_type": "orbit_speed",
+        "step": 0.1,
+        "min": 0.09,
+        "max": 2500.0,
+        "default": 11.1252,
+        "scale": "log",
+        "class_markers": {
+            "Gas Giant": 127.7069,
+            "Mini-Neptune": 13.7671,
+            "Neptune-like": 19.4972,
+            "Sub-Earth": 3.9163,
+            "Super-Earth": 5.3419,
+            "Super-Jupiter": 3.4465
+        }
+    },
+    "planet_radius_earth": {
+        "label": "Planet radius",
+        "unit": "× Earth",
+        "description": "Planet radius compared to Earth's radius.",
+        "visual_type": "planet_radius",
+        "step": 0.01,
+        "min": 0.3,
+        "max": 18.0,
+        "default": 2.84,
+        "scale": "linear",
+        "class_markers": {
+            "Gas Giant": 12.6,
+            "Mini-Neptune": 2.46,
+            "Neptune-like": 4.19,
+            "Sub-Earth": 0.84,
+            "Super-Earth": 1.4,
+            "Super-Jupiter": 15.984
+        }
+    },
+    "planet_mass_earth": {
+        "label": "Planet mass",
+        "unit": "× Earth",
+        "description": "Planet mass compared to Earth's mass.",
+        "visual_type": "planet_mass",
+        "step": 0.01,
+        "min": 0.02,
+        "max": 10000.0,
+        "default": 9.27,
+        "scale": "log",
+        "class_markers": {
+            "Gas Giant": 458.6275,
+            "Mini-Neptune": 6.855,
+            "Neptune-like": 16.35,
+            "Sub-Earth": 0.615,
+            "Super-Earth": 2.6,
+            "Super-Jupiter": 325.2916
+        }
+    },
+    "equilibrium_temp_k": {
+        "label": "Equilibrium temperature",
+        "unit": "K",
+        "description": "Estimated planetary temperature based on incoming stellar radiation.",
+        "visual_type": "thermometer",
+        "step": 1,
+        "min": 34,
+        "max": 4050,
+        "default": 818.0,
+        "scale": "linear",
+        "class_markers": {
+            "Gas Giant": 1055.0,
+            "Mini-Neptune": 678.0,
+            "Neptune-like": 707.5,
+            "Sub-Earth": 994.5,
+            "Super-Earth": 923.0,
+            "Super-Jupiter": 1700.0
+        }
+    },
+    "orbital_eccentricity": {
+        "label": "Orbital eccentricity",
+        "unit": "",
+        "description": "How stretched the orbit is. 0 means circular; higher values mean more elliptical.",
+        "visual_type": "eccentricity_orbit",
+        "step": 0.01,
+        "min": 0,
+        "max": 0.95,
+        "default": 0.0,
+        "scale": "linear",
+        "class_markers": {
+            "Gas Giant": 0.1165,
+            "Mini-Neptune": 0.0,
+            "Neptune-like": 0.0,
+            "Sub-Earth": 0.0,
+            "Super-Earth": 0.0,
+            "Super-Jupiter": 0.0
+        }
+    },
+    "semi_major_axis_au": {
+        "label": "Semi-major axis",
+        "unit": "AU",
+        "description": "Average orbital distance from the host star.",
+        "visual_type": "orbit_distance",
+        "step": 0.001,
+        "min": 0.005,
+        "max": 5.0,
+        "default": 0.102,
+        "scale": "log",
+        "class_markers": {
+            "Gas Giant": 0.843,
+            "Mini-Neptune": 0.11,
+            "Neptune-like": 0.1591,
+            "Sub-Earth": 0.046,
+            "Super-Earth": 0.0569,
+            "Super-Jupiter": 0.0494
+        }
+    },
+    "star_temp_k": {
+        "label": "Star temperature",
+        "unit": "K",
+        "description": "Effective temperature of the host star.",
+        "visual_type": "star_temperature",
+        "step": 1,
+        "min": 3500,
+        "max": 8000,
+        "default": 5546.0,
+        "scale": "linear",
+        "class_markers": {
+            "Gas Giant": 5565.0,
+            "Mini-Neptune": 5529.0,
+            "Neptune-like": 5595.0,
+            "Sub-Earth": 5359.0,
+            "Super-Earth": 5373.0,
+            "Super-Jupiter": 6101.0
+        }
+    },
+    "star_radius_sun": {
+        "label": "Star radius",
+        "unit": "× Sun",
+        "description": "Host star radius compared to the Sun.",
+        "visual_type": "star_radius",
+        "step": 0.01,
+        "min": 0.01,
+        "max": 10.0,
+        "default": 0.9517,
+        "scale": "linear",
+        "class_markers": {
+            "Gas Giant": 1.158,
+            "Mini-Neptune": 0.898,
+            "Neptune-like": 0.9593,
+            "Sub-Earth": 0.82,
+            "Super-Earth": 0.84,
+            "Super-Jupiter": 1.4845
+        }
+    },
+    "star_mass_sun": {
+        "label": "Star mass",
+        "unit": "× Sun",
+        "description": "Host star mass compared to the Sun.",
+        "visual_type": "star_mass",
+        "step": 0.01,
+        "min": 0.01,
+        "max": 3.0,
+        "default": 0.94,
+        "scale": "linear",
+        "class_markers": {
+            "Gas Giant": 1.03,
+            "Mini-Neptune": 0.9131,
+            "Neptune-like": 0.93,
+            "Sub-Earth": 0.865,
+            "Super-Earth": 0.869,
+            "Super-Jupiter": 1.239
+        }
+    },
+    "star_age_gyr": {
+        "label": "Star age",
+        "unit": "Gyr",
+        "description": "Estimated age of the host star in billions of years.",
+        "visual_type": "simple_gauge",
+        "step": 0.1,
+        "min": 0,
+        "max": 16.5,
+        "default": 3.98,
+        "scale": "linear",
+        "class_markers": {
+            "Gas Giant": 4.0,
+            "Mini-Neptune": 3.98,
+            "Neptune-like": 4.27,
+            "Sub-Earth": 4.27,
+            "Super-Earth": 4.07,
+            "Super-Jupiter": 2.7
+        }
+    },
+    "star_surface_gravity": {
+        "label": "Star surface gravity",
+        "unit": "log g",
+        "description": "Surface gravity of the host star.",
+        "visual_type": "simple_gauge",
+        "step": 0.01,
+        "min": 0.5,
+        "max": 8.1,
+        "default": 4.453,
+        "scale": "linear",
+        "class_markers": {
+            "Gas Giant": 4.34,
+            "Mini-Neptune": 4.495,
+            "Neptune-like": 4.45,
+            "Sub-Earth": 4.55,
+            "Super-Earth": 4.53,
+            "Super-Jupiter": 4.212
+        }
+    },
+    "star_metallicity": {
+        "label": "Star metallicity",
+        "unit": "[Fe/H]",
+        "description": "Metal abundance of the host star compared to the Sun.",
+        "visual_type": "simple_gauge",
+        "step": 0.01,
+        "min": -1.0,
+        "max": 0.6,
+        "default": 0.02,
+        "scale": "linear",
+        "class_markers": {
+            "Gas Giant": 0.1,
+            "Mini-Neptune": 0.0,
+            "Neptune-like": 0.049,
+            "Sub-Earth": 0.0,
+            "Super-Earth": -0.009,
+            "Super-Jupiter": 0.05
+        }
+    },
+    "dist_from_earth_pc": {
+        "label": "Distance from Earth",
+        "unit": "pc",
+        "description": "Distance from Earth in parsecs.",
+        "visual_type": "distance",
+        "step": 1,
+        "min": 1,
+        "max": 10000,
+        "default": 376.658,
+        "scale": "log",
+        "class_markers": {
+            "Gas Giant": 163.462,
+            "Mini-Neptune": 560.885,
+            "Neptune-like": 466.587,
+            "Sub-Earth": 330.575,
+            "Super-Earth": 484.746,
+            "Super-Jupiter": 371.414
+        }
+    }
+}

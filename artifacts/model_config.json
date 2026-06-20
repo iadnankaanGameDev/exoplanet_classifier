@@ -1,0 +1,13 @@
+{
+    "input_dim": 25,
+    "hidden_dim": 64,
+    "output_dim": 6,
+    "class_names": [
+        "Gas Giant",
+        "Mini-Neptune",
+        "Neptune-like",
+        "Sub-Earth",
+        "Super-Earth",
+        "Super-Jupiter"
+    ]
+}
